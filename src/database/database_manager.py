@@ -12,7 +12,6 @@ class DatabaseManager:
         # database is a file name where the db stores
         self.database = 'databases/database.sql'
         self.create_table_if_not_exists_all()
-        # self.message_processor = messageProcessor()
 
 
     def create_table_if_not_exists_all(self):
