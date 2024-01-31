@@ -1,0 +1,256 @@
+Partial Vs Full Range of
+Motion Resistance Training: A Systematic Review and Meta-Analysis
+Milo Wolf1, Patroklos Androulakis-Korakakis1, James P. Fisher1, Brad J. Schoenfeld2, & James Steele1
+1Faculty of Sport, Health, and Social Sciences, Solent University, Southampton, UK, 2City University of New York, Lehman College
+ABSTRACT
+Background: Range of motion (ROM) during resistance training is of growing interest and is potentially used to elicit differing adaptations (e.g. muscle hypertrophy and muscular strength and power). To date, attempts at synthesising the data on ROM during resistance training have primarily focused on muscle hypertrophy in the lower body. Objective: Our aim was to meta-analyse and systematically review the effects of ROM on a variety of outcomes including hypertrophy, strength, sport, power and body-fat type outcomes. Following pre- registration and consistent with PRISMA guidelines, a systematic review of PubMed and SportsDISCUS was performed. Data was extracted and a Bayesian multi-level meta-analysis was performed. A range of exploratory sub-group and moderator analyses were performed. Results: The main model revealed a trivial SMD (0.12; 95% CI: –0.02, 0.26) in favour of full ROM compared to partial ROM. When grouped by outcome, standardized mean differences (SMDs) all favoured full ROM, but SMDs were trivial to small (all between 0.05 to 0.2). Sub-group analyses suggested there may be a muscle hypertrophy benefit to partial ROM training at long muscle lengths compared to using a full ROM (–0.28; 95% CI: –0.81, 0.16). Analysis also suggested the existence of a specificity aspect to ROM, such that training in the ROM being tested as an outcome resulted in greater strength adaptations. No clear differences were found between upper- and lower-body adaptations when ROM was manipulated. Conclusions: Overall, our results suggest that using a full or long ROM may enhance results for most outcomes (strength,
+speed, power, muscle size, and body composition). Differences in adaptations are trivial to small. As such, partial ROM resistance training might present an efficacious alternative for variation and personal preference, or where injury prevents full-ROM resistance training.
+Keywords: muscle hypertrophy, muscle strength, power, sport, bodyfat, strength training, muscle length, regional muscle hypertrophy
+INTRODUCTION
+Resistance training (RT) is commonly used to induce muscle hypertrophy, increase strength and improve sport performance. Indeed, resistance training is employed across a variety of sports, notably sports in which muscularity is directly rewarded (e.g. bodybuilding) or where resistance training is the sport itself (e.g., powerlifting and strongman) to ones in which resistance training can improve performance on the field(e.g. enhance vertical jump, sprint time, etc.) [1,2].
+In recent years, the range of motion (ROM) employed during RT has become a controversial topic. Whilst some findings suggest a superiority of full ROM (fROM) in some contexts (e.g. when muscle hypertrophy is desired in several muscle groups), others argue for the use of partial ROM (pROM) in other contexts (e.g. when muscle hypertrophy is only desired in specific muscle groups) [3,4]. Whilst, both pROM and fROM RT produce improvements in muscle size, it has been reported that fROM RT is
+more efficacious for promoting muscle hypertrophy in the lower body [3]. Evidence in the upper body is more equivocal [5,6] and research has not been consolidated in review. Similarly, in regard to performance outcomes such as strength, both pROM and fROM RT have been shown to stimulate improvements [7–9]. Specifically, in resistance- trained men, both pROM and fROM lower body RT have been shown to elicit improvements in performance outcomes such as counter-movement jump height, 20 m sprint time and Wingate Test peak and mean power [10].
+Whilst both pROM and fROM RT have been shown to produce improvements in a variety of muscle size and performance outcomes it is unclear which strategy, if any, results in greater adaptations. Indeed, there are inherent differences between pROM and fROM RT that could plausibly lead to meaningfully different adaptations, both in magnitude and in transferability to performance outcomes. For example, it has been shown that during isometric training, the length at which a muscle is trained impacts the resulting adaptations [11]. Evidence suggests that isometrically training a muscle at longer lengths may produce greater increases in muscle volume than training it at short lengths [11]. In addition, improvements in isometric peak force appear to be joint angle-specific, such that training a muscle at shorter lengths likely results in greater improvements in isometric peak force at shorter muscle lengths and vice versa [11]. It is unclear whether these findings apply to dynamic resistance training.
+In addition, it has been suggested that pROM RT may promote greater muscle deoxygenation and greater blood lactate accumulation compared to fROM RT [6]. Mechanistically, these differences in acute responses to ROM may lead to divergent training adaptations [12,13]. In addition, it is plausible that pROM RT may lead to greater improvements in performance outcomes such as vertical jumps and sprint times compared to fROM RT [14]. Indeed, through training the joint angles in a task-specific manner, pROM may be superior to fROM in inducing these adaptations. There is likely no “one-size- fits-all” approach to ROM in training for different sports/movement patterns. In rugby, for example, scrumming may benefit moreso from pROM training, whereas tasks like baseball pitching, which involve greater ranges of motion, may benefit from fROM training. Finally, pROM training might be beneficial when an athlete/trainee has a musculoskeletal injury, for example, where loading a muscle through a fROM may accentuate pain [15]. To summarize –
+it is unclear if and when using different ranges of motion may lead to different results in morphological and/or musculoskeletal function outcomes.
+A previous systematic review by Schoenfeld & Grgic (2020) examined the effect of ROM during RT on muscle hypertrophy [16]. Although data were limited at the time of publication, this review suggested that greater ROM was superior for hypertrophy in the lower body musculature, but the effects of ROM were less clear in the muscles of the upper body. More recently, a meta-analysis and systematic review on the effects of ROM on training adaptations was published by Pallares et al. (2021) [17]. The findings suggested that full ROM was superior for muscle strength, functional performance and lower-limb muscle hypertrophy. The authors abstained from analysing data on upper-limb muscle hypertrophy due to scarcity of evidence. Despite the currently available literature on the effect of ROM on upper-limb hypertrophy and/or strength being limited, meta-analytically assessing the totality of the available literature may allow us to better understand the effect of pROM versus fROM on a multitude of musculoskeletal and morphological outcomes. Additionally, previous research has not included further sub-analyses on different moderators within the topic of full versus partial ROM (e.g. muscle length at which pROM is performed). Thus, the current article aims to both review and meta-analyse the available data on ROM and musculoskeletal function and morphology.
+METHODS
+This systematic review and meta-analysis were conducted in accordance with Preferred Reporting Items for Systematic Reviews and Meta-Analyses (PRISMA) guidelines [18]. This study was pre- registered on the Open Science Framework (OSF; https://osf.io/j96e7) using the International Prospective Register of Systematic Reviews (PROSPERO) template, though some of the methods adopted have changed since the original pre- registration.
+Inclusion Criteria
+Both full-text, peer-reviewed studies and doctoral/ master’s theses were included when they were available in English. Studies included needed to involve a resistance training intervention with at least two groups/conditions using varying ROM and measuring at least one outcome of interest (muscle
+size, muscle strength, sports, power or bodyfat). No restrictions were placed on publication date.
+Search Strategy
+PubMed/Medline and SportsDISCUS databases were searched for studies up to August 2022. The following search string was used: ““resistance training” AND “range of motion” AND (“muscle thickness” OR “cross sectional area” OR “muscle volume” OR “muscle mass” OR “hypertrophy” OR “muscle strength”). Both the abstracts/titles and the full-texts were examined for inclusion by MW and PAK. Screening was performed using abstrackr (http://abstrackr.cebm.brown.edu/). Studies deemed irrelevant were excluded. Once all studies returned through the search had been screened for inclusion, the reference lists of included studies were screened for inclusion. Publications that cited included studies were also screened for inclusion.
+Quality Assessment
+The quality of studies that met inclusion criteria was assessed using the TESTEX scale [19]. The TESTEX scale is an alternative to the PEDro scale designed specifically for exercise science training studies [19]. It has been shown to be reliable and is composed of 12 items relating to both study quality and study reporting. Finally, a GRADE table of evidence (Table 2) was produced to clearly communicate findings using GradePro (https://www.gradepro.org/) . This was performed by MW.
+Data Extraction
+The following data was extracted/coded from studies that met inclusion criteria by MW: study design, weighted mean age, weighted mean height, intervention duration, total study duration, sex of participants, training status, population, ROM used by the pROM group/condition, ROM used by the fROM group/condition, proportion of sets being performed with a full/PROM, muscle length trained, training frequency, mean number of weekly sets performed, mean repetition duration, mean number of repetitions performed per set, number of exercises, mean proximity to momentary muscular failure, mean load, modality of training, presence of auxiliary interventions and whether other exercises were performed besides the exercise(s) on which ROM was manipulated. The pre-registration noted two groupings of outcomes (musculoskeletal function and morphology) though noted that after the systematic search and review additional outcomes
+would be extracted depending on what studies had measured. After data extraction we opted to group outcomes into the following categories: body composition outcomes, strength outcomes, power outcomes, and sport outcomes. Finally, if an outcome measure favoured, that is to say may have been biased towards, either full or pROM group/condition (e.g. partial squat 1-repetition- maximum (1RM) favouring a partial squat group), this was also noted. Where data was not available in the full-text, the authors were contacted to request missing data. When their contact information was unavailable, the institution at which the work was performed was contacted to obtain it. If no response was received to the initial request, a second email was sent a few weeks later. If no response was obtained to the second attempt, data was obtained via WebPlotDigitizer (v4.4, Ankit Rohatgi) where possible. The data were transcribed/imported into a
+.csv file.
+Meta-Analysis
+All analysis code utilized is presented in the supplementary materials (https://osf.io/fmvrw/). Given the aim of this research, we opted to take an estimation-based approach [20], conducted within a Bayesian framework [21]. For all analyses, effect estimates and their precision, along with conclusions based upon them, were interpreted continuously and probabilistically, considering data quality, plausibility of effect, and previous literature, all within the context of each outcome [22]. The main exploratory meta-analysis was performed using the ‘brms’ package [23] with posterior draws taken using ‘tidybayes’ [24] and ‘emmeans’ in R (v 4.0.2; R Core Team, https://www.r-project.org/) [25]. All data visualizations were made using ‘ggplot2’ [26], and ‘patchwork’ [27].
+As the included studies often had multiple groups/ conditions and reported effects within these for multiple sessions/exercises/sets - we opted to calculate effect sizes as a nested structure. Therefore, multilevel mixed-effects meta-analyses were performed with both inter-study and intra- study groups included as random effects in the model. Effects were weighted by inverse sampling variance to account for the within- and between- study variance. A main model included all effects for all outcomes in the included studies. We also conducted several exploratory meta-regression and sub-group analyses of moderators (i.e., predictors of effects) to explore study protocols and participant characteristics. Moderators examined included the
+International Journal of Strength and Conditioning. 2023
+Review and Meta-Analysis
+outcome subcategory (strength, muscle size, body fat, power, or sport performance proxies), study design (between- or within-participant), upper vs lower body, the length at which muscles where trained in the pROM condition (short, middle, or long; this was also specifically explored for muscle size outcomes alone), the modality of resistance (free weights, resistance machines, or a combination), whether the outcome measures were in any way specifically biased towards either fROM or pROM (e.g., a fROM 1RM outcome would perhaps be biased towards fROM, and vice versa for a pROM 1RM outcome for pROM), participants’ mean height (considered to be related to limb lengths), intervention duration, the proportion of volume performed with a fROM, the proportion of fROM used by the pROM condition, time under load per repetition, and for muscle size whether proximal or distal muscle sites where measured.
+Our primary models were produced using standardised mean difference (SMD; i.e., Hedges g) effect sizes and are presented here. However, we also present supplementary models using the log response ratio of means (RR) which was exponentiated and presented as the percentage difference in changes between fROM and pROM. These are available in the supplementary files (see https://osf.io/fmvrw/ folder “Figures and Output”
+-> “lnRR models”). All effect sizes were calculated appropriately given the study designs involved for pre-post control comparisons [28,29].
+For all models, we used uninformed priors; recent meta-analyses might have been used to inform priors, however this would constitute a form of ‘double counting’ given the studies that were included in them have also been included in the likelihoods for the present models. Models were estimated using 231 Monte Carlo Markov Chains with 2000 warmup and 6000 sampling iterations. Trace plots were used to examine chain convergence and posterior predictive checks to examine model validity. Draws were taken from the posterior distributions to construct probability density functions for plotting. We then calculated the mean and the 95%, 80%, and 50% quantile intervals (‘credible’ or ‘compatibility’ intervals) from the posterior probability density functions for each group effect estimate. These gave us the most probable value of the parameter for a given level of probability.
+SEARCH RESULTS
+The search string identified 576 publications/ theses for potential inclusion, while 19 others were identified through websites and citation searching. Once duplicates were removed, 344 studies remained. The titles and abstracts were screened, and, where deemed appropriate, full-text versions were sought to determine eligibility. Ultimately, 27 studies were included in review. One study was eventually excluded during the data extraction due to excessive missing data. Two further theses were excluded because they contained the same data as another publication that was already included. Figure 1 details this process. Table 1 provides summary data of the 24 studies that were included for analysis.
+1 C -1 where C was the number of cores available on the computer used to run the analysis (build available here: https:// uk.pcpartpicker.com/list/C6VXRT).
+Figure. 1 PRISMA Flow Chart
+Table 1. Summary of Studies Included
+(Rhea et al., 2016) 28
+[40]
+Between participant, 3 groups
+16 L
+60 or 110 °*
+90 °*
+Significant differences in favour of fROM for fROM 1RM & 7
+pROM for pROM 1RM, vert. jump & sprint test.
+(Valamatos et al., 2018) [41]
+(Goto et al., 2019) [42]
+(Esmaeeldokht, 2019) [43]
+(Martinez-Cava et al., 2019) [44]
+(Kubo et al., 2019) [45]
+11 Within Partici-
+pant
+44 Between par-
+ticipant
+14 Between par-
+ticipant
+24 Between par-
+ticipant
+17 Between par-
+ticipant
+15 L 60 ° 100 ° No significant differences for muscle size. Maximum torque
+improved significantly more in respective ROMs.
+8 U 45 ° 120 ° Significantly greater improvements in muscle CSA & iso-
+metric strength for pROM than fROM.
+8 L ? ? No significant between-group differences for 1RMs/ body-
+fat%.
+10 U ? ? More ROM generally led to better 1RM and MPV at %1RM
+outcomes & strength gains were greatest in trained ROM
+10 L 90 ° 140 ° Significantly greater improvements in fROM 1RM & adduc-
+tor/gluteus maximus growth for fROM than pROM.
+(Pallares et al., 36
+2020)[10]
+(Whaley et al.,
+Between participant, 3 groups
+Between par-
+10 L
+? & ?
+90 °
+More ROM generally led to better 1RM and MPV at %1RM outcomes & strength gains were greatest in trained ROM. 7
+No significant differences for WGT, CMJ/sprint time. Similar improvements in VJ height, full squat 1RM and
+2020) [46] 36
+ticipant 7 L ? ?
+power output when increasing ROM from pROM to fROM 7
+compared to continuously training with fROM.
+(Sadacharan & Seo, 2021) [47]
+(Werkhausen et al., 2021) [9]
+(Pedrosa et al.,
+34 Within partici-
+pant
+15 Within partici-
+pant
+Within partici-
+3 Both 60 ° ? Both pROM and fROM generally led to improvements in
+MVIC.
+10 L 9 ° 79 °/ pROM & fROM generally led to similar improvements in
+peak torque, force, power, RTD & muscle thickness
+Training pROM at longer muscle lengths generally resulted
+2021) [48] 45
+pant, 4 groups 12 L 35 ° 70 °
+in greater muscular and strength adaptations than fROM or 5
+pROM at shorter muscle lengths.
+*= ROM assumed based on existing biomechanical analyses of squat depth. Details available in supplementary materials.
+/= ROM digitized using manuscript. Details available in supplementary materials.
+Table 2. GRADE Table of evidence
+Muscle Strength (follow-up: median 10 weeks; assessed with: Isometric Strength, Isometric Torque, Partial ROM 1RM, Full ROM 1RM, Relative Peak Force, 6RM, Peak Force, Maximum Voluntary Contraction, Specific Tension, Fascicle Force, Specific Torque, Relative Full ROM 1RM, Relative Partial ROM 1RM)
+ran-
+24 domised trials
+not seri- ous
+not serious
+not serious
+seriou- none 311 428 - sa
+SMD 0.14
+SD higher (0.01 lower
+to 0.29 higher)b
+Moderate
+alt text
+Sport (follow-up: median 10 weeks; assessed with: Standing Vertical Jump Height, Depth Jump Height, Counter-Movement Jump Vertical Take- Off Velocity, Counter-Movement Jump Height, Counter-Movement Jump Force, Squat Jump Height, 40 yard sprint time, 20 meter sprint time)
+Power (follow-up: median 10 weeks; assessed with: Relative Peak Power, Counter-Movement Height, Counter-Movement Force, Half-ROM Force, Unilateral Maximal Rate of Force Development, Isometric Rate of Force Development, Mean Propulsive Velocity at different %1RM and ROMs, Peak and Mean Power during Wingate Test, Peak Power, Peak Velocity)
+ran-
+8 domised trials
+not seri- ous
+not serious
+not serious
+seriou- none 99 127 - sa
+SMD 0.19
+SD higher (0.01 higher
+to 0.37 higher)
+Moderate
+Muscle size (follow-up: median 10 weeks; assessed with: Muscle Thickness, Regional Cross-Sectional Area, Muscle Volume)
+SMD 0.04
+ran-
+8 domised trials
+not seri- ous
+not serious
+not serious
+seriou- sa
+none 96 116 -
+SD higher (0.17 lower
+to 0.25 higher)
+Moderate
+alt text
+Body Fat (follow-up: median 8 weeks; assessed with: Body Fat Percentage, Regional Subcutaneous Fat Thickness, Skinfold Body Fat, Waist to Hip Ratio)
+CI: confidence interval; SMD: standardised mean difference
+Explanations
+a. SMDs were as large as ~1.25. Further, data was unavailable even upon request for several studies.
+b. SMD were used.
+Summary of study characteristics
+Range of motion control
+The methods used to control ROM varied from study- to-study. Some studies used mechanical stops built- in to the equipment being used – such as isokinetic dynamometers/electric goniometers/tensiometers [30]. In other studies, participants’ ROM was controlled using physical stops like the metallic bars used to delineate partial ROM by Pedrosa et al. (2021) & Pinto et al. (2012) [5,48]. Finally, in some studies, the ROM used was less clearly defined and participants were supervised by personnel to ensure the ROM being used was correct – though the accuracy of this method may not be ideal [34]. It is also interesting to note that few studies individualised the ROM being used to the individual’s fROM [34]. In other words, for most studies, a certain amount of ROM was deemed a “full” ROM, regardless of what each individual participant’s fROM truly was. The specifics of ROMs being used can be found in Table 1.
+Muscle length of partial range of motion training
+It is worth noting that most studies (19/23 studies) examined pROM when performed – at least for some of the volume performed – at short muscle lengths. In contrast, relatively few studies have examined pROM at either moderate muscle lengths (1/23) (defined as the middle of fROM) or long muscle lengths (6/23).
+The specific findings of all studies can be seen in Table 1 and a GRADE table of evidence can be seen in Table 2.
+Meta-Analysis Results Main Model – all outcomes
+The main model – including all effects on all outcomes across 23 studies – revealed a trivial standardized mean difference (SMD) (0.12; 95% CI: –0.02, 0.26) in favour of fROM compared to pROM (Figure 2). All effect sizes (ticks), posterior probability distributions and the overall estimate are displayed below in Figure 2.
+Sub-Group Analyses
+Grouped by outcome type
+Outcomes were grouped by type (such as “power”
+and “muscle size” outcomes) and sub-group analyses were performed. For “strength” type outcomes (e.g. 1RM test), analysis revealed a trivial SMD (0.14; 95% CI: -0.01, 0.29) in favour of fROM.
+For “sport” type outcomes (e.g. sprint time), analysis suggested a trivial SMD (0.02; 95% CI: –0.22, 0.26) in favour of fROM. For “power” type outcomes (e.g. rate of force development), analysis showed a trivial SMD (0.19; 95% CI: 0.01, 0.37) in favour of fROM.
+For “muscle size” type outcomes (e.g. muscle cross- sectional area), analysis revealed a trivial SMD (0.04; 95% CI: –0.17, 0.25) in favour of fROM. Finally, for “Body Fat” type outcomes (e.g. bodyfat %), analysis suggested a trivial SMD (0.12; 95% CI: –0.36, 0.6) in favour of fROM. Figure 3 displays individual effect sizes as ticks, posterior probability distributions and overall estimates for each outcome.
+Study design
+Studies were categorized as either being within- subject designs (e.g. the same subjects used different ranges of motion for different limbs) or between-subject designs (e.g. subjects were assigned to performing either a fROM intervention or a pROM intervention). For within-participant designs, analysis revealed a small SMD (0.22; 95% CI: –0.16, 0.6) favouring fROM for all outcomes. For between- participant designs, analysis revealed a trivial SMD (0.1; 95% CI: –0.06, 0.25) favouring fROM. Figure 4 displays individual effect sizes as ticks, posterior probability distributions and overall estimates for each outcome.
+Figure 2. Overall Model
+Figure 3. Outcome Sub-Group Analysis
+Figure 4. Study Design Sub-Group Analysis
+Proximal vs Distal Muscle Hypertrophy
+Hypertrophy outcome assessments were grouped as being either “proximal” (i.e. <50% of muscle length from origin) or “distal” (i.e. >50% of muscle length from origin) when regional muscle hypertro- phy assessment methods were used. For proximal muscle hypertrophy, a trivial SMD (0.17; 95% CI:
+–1.29, 1.72) was found in favour of fROM. For dis- tal muscle hypertrophy, a small SMD (0.32; 95% CI:
+–1.14, 1.86) was found in favour of fROM. Individual effect sizes, posterior probability distributions and overall sub-group estimates can be found in Figure 5.
+Resistance Training Modality
+Resistance training interventions were categorized into using either resistance machines, free weights, or a combination of both. For interventions using ex-
+clusively resistance machines, sub-group analysis revealed a trivial SMD (0.17; 95% CI: –0.06, 0.38) in favour of fROM. For interventions using exclusively free weights, analysis showed a trivial SMD (0.05; 95% CI: –0.15, 0.26) in favour of fROM. Finally, for interventions using a combination of these two mo- dalities, analysis revealed a small SMD (0.27; 95% CI: –0.28, 0.83) in favour of fROM. Individual effect sizes, posterior probability distributions and overall sub-group estimates can be found in Figure 6.
+Upper vs Lower Body
+Studies were grouped into training either the lower- or the upper-body. For upper-body interventions, analysis showed a trivial SMD (0.07; 95% CI: –0.18, 0.33) favouring fROM. Likewise, for lower-body in- terventions, analysis also revealed a trivial SMD (0.1; 95% CI: –0.07, 0.27) favouring fROM. Individu- al effect sizes, posterior probability distributions and overall sub-group estimates can be found in Figure 7.
+Figure 5. Regional Hypertrophy Sub-Group Analysis
+Figure 6. Resistance Modality Sub-Group Analysis
+Figure 7. Upper- vs Lower- Body Sub-Group Analysis
+Figure 8. Outcome Bias Sub-Group Analysis
+Outcome Bias
+Outcomes were grouped into being either “biased” (in the sense that training performed was more alike the test being used as an outcome) in favour of the pROM group, the fROM group or there not being a clear bias for the outcome. Analysis revealed a trivial SMD (–0.12; 95% CI: –0.31, 0.07) in favour of pROM
+for outcomes that were biased in favour of the pROM group, a trivial SMD (0.02; 95% CI: –0.15, 0.19) in favour of fROM for outcomes with no clear bias and a small SMD (0.32; 95% CI: 0.14, 0.49) in favour of fROM for outcomes that were biased in favour of the
+fROM group. Individual effect sizes, posterior prob- ability distributions and overall sub-group estimates can be found in Figure 8.
+Muscle Length & Muscle Hypertrophy
+pROM interventions were categorized as training muscle groups at either “short” or “long” muscle lengths2. When the average assumed muscle length
+2It is important to acknowledge the assumption that joint angle and muscle length likely don’t correlate perfectly; for the purposes of this exploratory sub-group analysis,
+this assumption was deemed acceptable.
+during the pROM condition was lower than during the fROM condition, this was regarded as “short” and vice versa for “long” muscle lengths. Analysis revealed a trivial SMD (0.08; 95% CI: –0.24, 0.42) in favour of fROM for muscle hypertrophy when pROM was performed at short muscle lengths. Conversely, when pROM was performed at long muscle lengths, analysis showed a small SMD (–0.28; 95% CI: –0.81, 0.16) in favour of pROM for muscle hypertrophy. In- dividual effect sizes, posterior probability distribu- tions and overall sub-group estimates can be found
+in Figure 9.
+Meta-regression analyses
+Proportion of sets done with a fROM
+Only non-warm-up sets were accounted for. The proportion of sets done with a fROM had a trivial im- pact on outcomes with a slope of β= 0.01 (95% CI:
+–0.92, 0.95). Quantile intervals can be seen in Figure 10 below.
+Figure 9. Muscle Length during pROM sub-group analysis
+Figure 10. Proportion of volume as full ROM meta-regression
+International Journal of Strength and Conditioning. 2023
+& Steele, J.
+Proportion of fROM done by the pROM condition
+The proportion of fROM done by the pROM condi- tion had a trivial impact on outcomes with a slope of β= 0.01 (95% CI: –0.87, 0.91). Quantile intervals can be seen in Figure 11 below.
+Height
+The height of participants had a trivial impact on out- comes with a slope of β= 0.03 (95% CI: –0.00, 0.06). Quantile intervals can be seen in Figure 12 below.
+Figure 11. Proportion of fROM that pROM trained meta-regression
+Figure 12. Participant Height Meta-Regression
+Intervention Duration
+The duration of the training intervention had a trivial impact on outcomes with a slope of β= –0.02 (95% CI: –0.06, 0.03). Quantile intervals can be seen in Figure 13 below.
+Time Under Load
+The time under load per repetition had a trivial im- pact on outcomes with a slope of β= –0.06 (95% CI:
+–0.31, 0.18). Quantile intervals can be seen in Figure 14 below.
+Figure 13. Intervention Duration Meta-Regression
+Figure 14. Participant Height Meta-Regression
+Quality Assessment
+Quality of the evidence
+The TESTEX scale was used to assess study quality. As can be seen in Table 1, the range of TESTEX scores was 3-8/12. The most commonly met criteria for study quality included groups being similar at baseline, titration/progression of relative training intensity across the program and at least some of the statistical tests’ results being reported. The least commonly met criteria included complete reporting of the outcome data (including measures of variance) using point estimates and measuring and/or reporting adherence during the intervention.
+Potential Bias in the review process
+One of this review’s unique features is the inclusion of Master’s/Doctoral Theses. Indeed, by including theses, more data can be analysed and greater confidence can be had in the findings of this review. Further, this review screened abstracts from three separate databases, in addition to reference/citation checking. As such, it is hoped that, if not the entirety of the literature on ROM, the vast majority of the relevant literature was included. Inclusion criteria were purposely kept simple and lenient for that reason. The use of the TESTEX scale also provides a gauge of study quality. With that being said, this review also suffers from a few meaningful limitations. Firstly, the inclusion of theses may result in the inclusion of data that has not undergone a peer review process as rigorous as published data. Secondly, though an effort has been made throughout the manuscript to indicate that sub-group or regression analyses are deemed exploratory, it is worth reiterating that many of these analyses lack the data and statistical power to make any confident inferences. Finally, while an effort was made to obtain as much of the data as possible, we were unable to obtain some of the data. Thus, it is possible that the results of this review could have been meaningfully different had all the data been available.
+DISCUSSION
+This article aimed to review and meta-analyse the effects of ROM during RT on a range of outcomes. The major finding from this systematic review and meta-analysis was that ROM during RT appears to have at most a modest impact on outcomes of interest. When all outcomes were pooled, the impact of ROM was trivial to small (for example, the RR
+ranged showed a difference between conditions of 2.8% [95% CI: -1.69% to 7.42%] change favouring fROM; https://osf.io/ahjnf).
+Our results suggest that different ROMs may be appropriate for different goals. For example, when training for a specific performance outcome (e.g. a partial squat 1RM in a powerlifting competition), it appears that training in a similar ROM may maximise improvements by a trivial to small margin. These results strongly suggest that the principle of specificity applies to ROM – though the benefit may be more modest than commonly assumed. When looking at outcomes grouped by category (e.g. muscle size, strength.), differences in results between pROM and fROM were largely trivial. That said, it is noteworthy that all effect sizes, although small in magnitude, directionally favoured fROM. As such, utilising a fROM during resistance training may prove to be an effective “default” strategy. It is important to note that the use of ROM is not necessarily a binary decision as some training can be fROM while other training may be pROM.
+Our analyses also supported the hypothesis that performing pROM RT at long muscle lengths results in greater muscle hypertrophy than both pROM RT at short muscle lengths and fROM RT. This suggests that if muscle hypertrophy is the goal, trainees may wish to use pROM RT at long muscle lengths in their training. There is substantial supporting evidence for the concept of resistance training at long muscle lengths for optimising hypertrophy. Oranchuk et al. (2019)’s systematic review on the effects of isometric training on adaptations suggested that across three studies that included isometric training at different muscle lengths, longer muscle length training resulted in greater increases in muscle size in all three [11].
+The evidence directly comparing the effects of pROM RT at different muscle lengths on muscle size is also reasonably consistent. Six studies exist in this area. As reviewed above, Pedrosa et al. (2021) [48] showed greater quadriceps growth following pROM RT at longer compared to shorter muscle lengths. A similar previous study by McMahon et al. (2014) [54] had seen similar results in the vastus lateralis. Further, Maeo et al. (2020) also saw greater hypertrophy in the biarticular segments of the hamstrings following RT at longer muscle lengths compared to RT at shorter muscle lengths [49]. Similar results were found by both Sato et al. (2021) in the elbow flexors [50]. A further study by Maeo et al. (2022) featured a within-subject design comparing “neutral-arm”
+and “overhead-arm” elbow extensions and showed greater hypertrophy in all 3 heads of the triceps brachii in the longer muscle length condition [51]. This finding is noteworthy, since only the long head of the triceps brachii was trained at longer muscle lengths during the “overhead” condition; yet the lateral and medial heads of the triceps brachii also saw greater hypertrophy. In contrast with this study, a study by Stasinaki et al. (2018) found no significant differences in triceps brachii long head hypertrophy following pROM RT at longer vs shorter muscle lengths [52]. Further, long muscle lengths generally appear to result in a greater degree of passive tension as passive tissues begin to reach maximal length and provide resistance to further increases in muscle length [53]. Tension itself has been suggested to activate the mTORC1 pathway which is associated with muscle hypertrophy [54]. A greater degree of passive tension during pROM RT at long muscle lengths may thus contribute to greater mTORC1 pathway activation and thus greater muscle hypertrophy than during pROM RT at short muscle lengths. Further, emerging evidence also suggests stretch-mediated hypertrophy may play a substantial role in humans. In a recent investigation by Warneke et al. (2022) [55], the gastrocnemius muscle showed substantial hypertrophy when stretched at the maximally dorsiflexed position for an hour per day for six weeks.
+While these bodies of literature are perhaps not convincing enough on their own, when considered in combination, the evidence converges to suggest that training at longer muscle lengths is very likely of benefit when seeking to maximise muscle growth. It is possible that fROM RT is only superior to pROM RT if and when it includes longer muscle lengths. Further, it is a possibility that pROM RT at long muscle lengths – and even isometric contractions at long muscle lengths – may be equal to or superior to fROM RT for inducing muscle hypertrophy, however, this area requires more research.
+Given how effective pROM at long muscle lengths appears to be, previous reviews on muscle hypertrophy and ROM may have over-estimated the beneficial impact of fROM on muscle hypertrophy. Specifically, in their meta-analysis, Pallarés et al. (2021) found a large effect size (0.88) in favour of fROM for muscle hypertrophy [17]. Notably, only lower-limb hypertrophy was analysed; as such, only 4 studies were included. In contrast, when looking only at muscle hypertrophy outcomes, our analysis revealed a trivial SMD of 0.05 (Figure 3; RR: -0.88% [95% CI: -10.87%, 10.31%]; see https://osf.io/uv5d7).
+This difference is likely explained by the inclusion of more data; studies including upper-body muscle groups as well as studies that have been published after the analysis by Pallarés et al. (2021) [17].
+In their systematic review, Schoenfeld & Grgic (2020) concluded that evidence suggested that fROM RT was superior to pROM RT for lower-limb hypertrophy but that the effects were less clear in the upper body [16]. The difference between this article’s results and theirs likely stems from the inclusion of trials that have been published since the publication of Schoenfeld & Grgic’s (2020) review article [16]. They also surmised that the response to ROM during RT may be muscle-specific. Our sub- group analysis (Figure 7.) comparing upper- vs- lower body outcomes does not support this idea, though further research would be helpful in testing this hypothesis.
+Several studies have found greater distal hypertrophy (defined as >50% of the muscle length from the origin) following fROM RT or pROM RT at long muscle lengths compared to pROM RT at short muscle lengths, but similar proximal hypertrophy [8,37,48]. That said, sub-group analysis of regional hypertrophy (Figure 5.) only showed a small SMD (0.32; 95% CI: –1.14, 1.86) in favour of fROM RT
+for distal hypertrophy and a trivial SMD (0.16; 95% CI: –1.43, 1.73) in favour of fROM RT for proximal hypertrophy (see https://osf.io/wdjxg for RRs). If a difference in regional hypertrophy does exist between pROM and fROM RT or shorter and longer muscle length training, further data are required to give this conclusion further credibility.
+It is important to note that for some outcomes (such as bodyfat) and some sub-group or moderator analyses (such as proximal vs distal hypertrophy), the analyses are based on very few data and are relatively underpowered. As such, caution is advised when drawing conclusions.
+The reader can adopt two viewpoints. The first best befits researchers and is more conceptual. It consists in regarding ROM as a relatively inconsequential variable, many of these analyses as being underpowered and viewing range of motion research as an area in its infancy, lacking the data required to come to any sort of consensus on the topic.
+The second viewpoint aims to minimize “false negative” errors and best befits practitioners. Using one range of motion vs. another has little to no practical downside. Therefore, even if the benefit of
+one strategy over the other is small and uncertain, it is likely still worth adopting provided there are no contraindications such as personal preference, load availability or injury management. The practitioner may also recognize the value in small effects whose existence is relatively uncertain, as even these small potential gains may be meaningful to many coaches and athletes, competitive and recreational alike [56].
+CONCLUSION
+fROM outperformed pROM for all outcome types, but effect sizes ranged from trivial to small SMDs at best (overall RR between conditions of 2.8% [95% CI: -1.69% to 7.42%] change favouring fROM). It appears that there may be small differences in outcomes depending on exactly how ROM was manipulated (e.g., short vs long muscle lengths for regional hypertrophy), so coaches/athletes may wish to adopt the ROM strategy most appropriate to their goals. The principle of specificity likely also applies to ROM, such that training should usually replicate the ROM of the outcome of interest. While using a fROM approach may be a good “default” approach, overall, these results suggest that a variety of ROMs can be used to good effect, whether that be due to injury management or personal preference.
+The researchers would be interested in seeing future studies compare the adaptations following pROM training at different muscle lengths compared to a fROM. For example, a study examining muscle thickness adaptations following resistance training in two pROM conditions at different muscle lengths and one fROM condition. For ease of future analysis and/or replication, future research should also ensure data is either openly available or, at least, easier to extract. Failing this, efforts should be made to provide data upon request.
+ABBREVIATIONS
+ROM: range of motion
+pROM: partial range of motion fROM: full range of motion
+DECLARATIONS
+Ethics approval and consent to participate
+Not applicable
+Consent for publication
+Not applicable.
+Availability of data and material
+Analysis scripts, datasheet, digitized pictures, figures for all analyses, text outputs for all analyses, GRADE table of evidence, systematic search results and some screening details and TESTEX results are all available in the supplementary materials.
+FUNDING
+Funding for the lead investigator’s PhD project was provided by Renaissance Periodization.
+ACKNOWLEDGEMENTS
+Many thanks to James Wright and Eric Helms for providing useful feedback on the finished manuscript.
+COMPETING INTERESTS
+The authors declare no competing interests with the contents of this manuscript.
