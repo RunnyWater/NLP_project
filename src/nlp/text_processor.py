@@ -37,28 +37,6 @@ class DictionaryProcessor(Processor):
     def make_dir(self, name):
         # if doesn't exist make directory
         if not os.path.isdir(name): os.mkdir(name)
-
-
-    def speech_recognizing():
-        r = sr.Recognizer()
-        # capturing microphone input
-        # change the device_index if needed 
-        with sr.Microphone(device_index=2) as source:
-            r.adjust_for_ambient_noise(source)
-            print("Speak Anything :")
-            audio = r.listen(source)
-
-        # recognize speech using Google Speech Recognition
-        try:
-            '''
-            message = r.recognize_houndify(audio, client_id="Pz38Yvr01KU7avT1L_lEGw==" client_key="Bb4N1XOzeSTeXZ-lYS4UfZewwIKgCsr032WT_KNKgF4EJxeXldBy-IazTRQ5sa6zWCGAo1CMV4PxCkfr3jAF-w==")
-            '''
-            # change language if needed
-            return r.recognize_google(audio, language='en-EN')
-        except:
-            print("There were a problem with recognizing speech")
-            print("Try changing the microphone or language")
-            return "Could not recognize what you've said"
     
 
     def to_csv(self):
@@ -148,30 +126,6 @@ class DictionaryProcessor(Processor):
             return None      
 
 
-    def semantic_similarity(self, initial_text, final_text):
-        try:
-            initial_text = self.nlp(initial_text)
-            final_text = self.nlp(final_text)
-            similarity = initial_text.similarity(final_text)
-            print(similarity)
-            return(similarity)
-        except Exception as e:
-            print(f'An error occured while calculating semantic similarity: {e}')
-
-
-    def emotions_evaluation(text):
-        # evaluate emotions in the text
-        blob = TextBlob(text)
-        sentiment = blob.sentiment
-        if sentiment.polarity > 0:
-            print("Positive")
-        elif sentiment.polarity == 0:
-            print("Neutral")
-        else:
-            print("Negative")
-
-            
-
     def topic_modeling(self): 
         for file_name in os.listdir('csv_files'):
             print(f'{os.path.join(file_name)} <- processing')
@@ -202,6 +156,53 @@ class messageProcessor(Processor):
     def __init__(self):
         super().__init__()
 
+
+    def speech_recognizing():
+        r = sr.Recognizer()
+        # capturing microphone input
+        # change the device_index if needed 
+        with sr.Microphone(device_index=2) as source:
+            r.adjust_for_ambient_noise(source)
+            print("Speak Anything :")
+            audio = r.listen(source)
+
+        # recognize speech using Google Speech Recognition
+        try:
+            '''
+            message = r.recognize_houndify(audio, client_id="Pz38Yvr01KU7avT1L_lEGw==" client_key="Bb4N1XOzeSTeXZ-lYS4UfZewwIKgCsr032WT_KNKgF4EJxeXldBy-IazTRQ5sa6zWCGAo1CMV4PxCkfr3jAF-w==")
+            '''
+            # change language if needed
+            return r.recognize_google(audio, language='en-EN')
+        except:
+            print("There were a problem with recognizing speech")
+            print("Try changing the microphone or language")
+            return "Could not recognize what you've said"
+
+
+
+    def semantic_similarity(self, initial_text, final_text):
+        try:
+            initial_text = self.nlp(initial_text)
+            final_text = self.nlp(final_text)
+            similarity = initial_text.similarity(final_text)
+            print(similarity)
+            return(similarity)
+        except Exception as e:
+            print(f'An error occured while calculating semantic similarity: {e}')
+
+
+    def emotions_evaluation(text):
+        # evaluate emotions in the text
+        blob = TextBlob(text)
+        sentiment = blob.sentiment
+        if sentiment.polarity > 0:
+            print("Positive")
+        elif sentiment.polarity == 0:
+            print("Neutral")
+        else:
+            print("Negative")
+
+            
 
     def filter_message_to_list(self, txt):
         try:
