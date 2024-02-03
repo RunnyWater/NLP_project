@@ -2,7 +2,6 @@ import speech_recognition as sr
 from textblob import TextBlob
 import pandas as pd
 import os, string, spacy
-from database.database_manager import DatabaseManager
 from gensim import corpora, models
 
 class Processor():
@@ -17,10 +16,11 @@ class Processor():
 
 
 class DictionaryProcessor(Processor):
-    def __init__(self, dir):
+    def __init__(self, dir, database_manager):
         super().__init__()
         self.dir_exists_handle(dir)
         self.make_dir('csv_files')
+        self.database_manager = database_manager
 
 
     def dir_exists_handle(self, dir):
@@ -57,8 +57,8 @@ class DictionaryProcessor(Processor):
                         line = line.translate(self.translator_punct)
                         
                         # Named Entity Recognition
-                        # entities = [(ent.text, ent.label_) for ent in doc.ents]
-                        # pos_tags = [(token.text, token.tag_, token.dep_, token.head.text) for token in doc]
+                        entities = [(ent.text, ent.label_) for ent in doc.ents]
+                        pos_tags = [(token.text, token.tag_, token.dep_, token.head.text) for token in doc]
                         # tokenize with spacy
                         doc = self.nlp(line)
                         # remove stopwords and lemmatize in one step using spacy
@@ -67,14 +67,18 @@ class DictionaryProcessor(Processor):
                         txt = txt + ' '.join(filtered_tokens)
                         # If you want to save entities to a separate file or database
                         # self.save_entities_to_csv(file_path, entities)
-                        # db_manager = DatabaseManager()
-                        # DatabaseManager().save_entities_to_sql(entities)
-                        # DatabaseManager().save_pos_tags_to_sql(pos_tags)
+                        self.database_manager.save_entities_to_sql(entities)
+                        self.database_manager.save_pos_tags_to_sql(pos_tags)
                 self.save_data_to_csv(file_path, txt)
+                self.delete_txt_file(file_path)
             except Exception as e:
                 print(f'An error occured while processing the file: {e}')
                 return None
         
+    def delete_txt_file(self, file_path):
+        os.remove(file_path)
+        print(f'{file_path} was deleted')
+
 
     def csv_to_sql_handler(self):
         for file_name in os.listdir(self.dir):
@@ -95,8 +99,8 @@ class DictionaryProcessor(Processor):
                     pos_tags = [(token.text, token.tag_, token.dep_, token.head.text) for token in doc]
                     # Save entities to a separate file or database
                     self.save_entities_to_csv(file_path, entities)
-                    DatabaseManager().save_entities_to_sql(entities)
-                    DatabaseManager().save_pos_tags_to_sql(pos_tags)
+                    self.database_manager.save_entities_to_sql(entities)
+                    self.database_manager.save_pos_tags_to_sql(pos_tags)
 
 
     def save_entities_to_csv(self, file_path, entities):
@@ -208,18 +212,11 @@ class messageProcessor(Processor):
         try:
             # lower case
             line = self.preprocess_txt(txt)
-            # Named Entity Recognition
-            # entities = [(ent.text, ent.label_) for ent in doc.ents]
-            # pos_tags = [(token.text, token.tag_, token.dep_, token.head.text) for token in doc]
             # tokenize with spacy
             doc = self.nlp(line)
             # remove stopwords and lemmatize in one step using spacy
             filtered_tokens = [token.lemma_ for token in doc if not token.is_stop]
             # If you want to save entities to a separate file or database
-            # self.save_entities_to_csv(file_path, entities)
-            # db_manager = DatabaseManager()
-            # DatabaseManager().save_entities_to_sql(entities)
-            # DatabaseManager().save_pos_tags_to_sql(pos_tags)
             return filtered_tokens
         except Exception as e:
             print(f'An error occured while processing the file: {e}')
