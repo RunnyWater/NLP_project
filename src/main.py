@@ -1,6 +1,6 @@
 from nlp.text_processor import DictionaryProcessor, messageProcessor
 from database.database_manager import DatabaseManager
-from ai.artificial_intelligence import IntentClassifier
+from ai.artificial_intelligence import IntentClassifier, ResponseGenerator
 
 
 def main():
@@ -8,8 +8,15 @@ def main():
     # db_manager = DatabaseManager()
     # Dictionary_processor = DictionaryProcessor(dir, db_manager)
     # message_processor = messageProcessor()
-    ai = IntentClassifier()
-    print(ai.classify("Hello, how are things going?"))
+    bert = IntentClassifier()
+    gpt2 = ResponseGenerator()
+    user_input = "I need help with my code"
+    intent_id = bert.classify(user_input)
+    print(f'Intent ID: {intent_id}')
+
+    intent = "help"
+    response = gpt2.generate_response(intent)
+    print(f'Generated response: {response}')
 
 if __name__ == '__main__':
     main() 

@@ -1,7 +1,5 @@
 import sqlite3
 import os, csv
-import numpy as np
-from nlp.text_processor import messageProcessor
 
 
 
